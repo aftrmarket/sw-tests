@@ -215,6 +215,8 @@ async function runScript() {
     // Run again, failure
     await runSteps(wallet, warp, aId, bId, dId);
 
+    console.log("*** PRINT CONTACT B ***");
+    await readContract(bId);
 
     console.log("*** PRINT CONTACT C ***");
     await readContract(cId);
@@ -224,3 +226,4 @@ async function runScript() {
 }
 
 await runScript();
+// await readContract("9sFx1WOsIRMDQYr7uSS7JHsj2-PMr1q80RXGjtimYEg");
