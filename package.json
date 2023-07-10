@@ -1,0 +1,29 @@
+{
+  "name": "sw-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./tests/testabc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aftrmarket/sw-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aftrmarket/sw-tests/issues"
+  },
+  "homepage": "https://github.com/aftrmarket/sw-tests#readme",
+  "dependencies": {
+    "arlocal": "^1.1.60",
+    "arweave": "^1.14.0",
+    "warp-contracts": "^1.4.14",
+    "warp-contracts-plugin-deploy": "^1.0.9"
+  }
+}
